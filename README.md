@@ -6,7 +6,7 @@
 git cloneでこのリポジトリをクローンします。
 
 ```
-cd ~/shiftgenerator  
+cd ~/GUI_Shiftgenerator  
 ```  
 
 上のコマンドでクローンしたディレクトリに移動し、以下の依存ライブラリをインストールしてください。
@@ -21,7 +21,7 @@ npm install electron
 
 ### 使用方法
 
-shiftgeneratorディレクトリ直下で、以下のコマンドを入力することでアプリが立ち上がります。
+GUI_Shiftgeneratorディレクトリ直下で、以下のコマンドを入力することでアプリが立ち上がります。
 
 ```
 electron .
