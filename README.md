@@ -9,12 +9,16 @@ git cloneでこのリポジトリをクローンします。
 cd ~/GUI_Shiftgenerator  
 ```  
 
-上のコマンドでクローンしたディレクトリに移動し、以下の依存ライブラリをインストールしてください。
+上のコマンドでクローンしたディレクトリに移動し、以下のパッケージをインストールしてください。
 
 ```
+# 必要なpythonモジュールのインストール
 pip install -upgrade pip
 pip install openpyxl
-npm install electron
+
+# 必要なnodeモジュールのインストール
+npm update -g npm
+npm install electron -g
 ```
 
 これでセットアップ完了です。
