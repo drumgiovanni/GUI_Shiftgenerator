@@ -1,0 +1,16 @@
+{
+  "name": "shift_generator",
+  "version": "1.0.0",
+  "description": "It genarates the working shift for Yomiuri-Shinbun, Hensei department",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Giovanni",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
